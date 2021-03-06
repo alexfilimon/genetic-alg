@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		764F82F025F35C9000A4B8A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764F82EF25F35C9000A4B8A4 /* AppDelegate.swift */; };
-		764F82F225F35C9000A4B8A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764F82F125F35C9000A4B8A4 /* SceneDelegate.swift */; };
-		764F82F425F35C9000A4B8A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764F82F325F35C9000A4B8A4 /* ViewController.swift */; };
-		764F82F725F35C9000A4B8A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764F82F525F35C9000A4B8A4 /* Main.storyboard */; };
 		764F82F925F35C9100A4B8A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764F82F825F35C9100A4B8A4 /* Assets.xcassets */; };
 		764F82FC25F35C9100A4B8A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764F82FA25F35C9100A4B8A4 /* LaunchScreen.storyboard */; };
+		768A46E425F35D7900C6EBDB /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768A46E325F35D7900C6EBDB /* DrawViewController.swift */; };
+		768A46E925F35DA800C6EBDB /* GeneticAlgMatrixGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768A46E825F35DA800C6EBDB /* GeneticAlgMatrixGenerator.swift */; };
+		768A46ED25F35DFE00C6EBDB /* TaskInputMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768A46EC25F35DFE00C6EBDB /* TaskInputMatrix.swift */; };
+		768A46F125F36C4B00C6EBDB /* GreedyAlg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768A46F025F36C4B00C6EBDB /* GreedyAlg.swift */; };
+		768A46F525F36CCF00C6EBDB /* TaskOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768A46F425F36CCF00C6EBDB /* TaskOutput.swift */; };
+		768A46F825F36D0B00C6EBDB /* TaskPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768A46F725F36D0B00C6EBDB /* TaskPoint.swift */; };
+		768A46FB25F3894B00C6EBDB /* GeneticAlg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768A46FA25F3894B00C6EBDB /* GeneticAlg.swift */; };
+		768A46FE25F3895B00C6EBDB /* AnyAlg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768A46FD25F3895B00C6EBDB /* AnyAlg.swift */; };
+		768A470125F3899800C6EBDB /* AnyAlgDebugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768A470025F3899800C6EBDB /* AnyAlgDebugger.swift */; };
+		768A470525F38A2C00C6EBDB /* AlgDebugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768A470425F38A2C00C6EBDB /* AlgDebugger.swift */; };
+		768A470825F399C900C6EBDB /* AnyAlgState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768A470725F399C900C6EBDB /* AnyAlgState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		764F82EC25F35C9000A4B8A4 /* GeneticAlg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticAlg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		764F82EF25F35C9000A4B8A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		764F82F125F35C9000A4B8A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		764F82F325F35C9000A4B8A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		764F82F625F35C9000A4B8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		764F82F825F35C9100A4B8A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		764F82FB25F35C9100A4B8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		764F82FD25F35C9100A4B8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768A46E325F35D7900C6EBDB /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		768A46E825F35DA800C6EBDB /* GeneticAlgMatrixGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticAlgMatrixGenerator.swift; sourceTree = "<group>"; };
+		768A46EC25F35DFE00C6EBDB /* TaskInputMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskInputMatrix.swift; sourceTree = "<group>"; };
+		768A46F025F36C4B00C6EBDB /* GreedyAlg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreedyAlg.swift; sourceTree = "<group>"; };
+		768A46F425F36CCF00C6EBDB /* TaskOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOutput.swift; sourceTree = "<group>"; };
+		768A46F725F36D0B00C6EBDB /* TaskPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPoint.swift; sourceTree = "<group>"; };
+		768A46FA25F3894B00C6EBDB /* GeneticAlg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticAlg.swift; sourceTree = "<group>"; };
+		768A46FD25F3895B00C6EBDB /* AnyAlg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyAlg.swift; sourceTree = "<group>"; };
+		768A470025F3899800C6EBDB /* AnyAlgDebugger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyAlgDebugger.swift; sourceTree = "<group>"; };
+		768A470425F38A2C00C6EBDB /* AlgDebugger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgDebugger.swift; sourceTree = "<group>"; };
+		768A470725F399C900C6EBDB /* AnyAlgState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyAlgState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,111 @@
 		764F82EE25F35C9000A4B8A4 /* GeneticAlg */ = {
 			isa = PBXGroup;
 			children = (
+				768A46E125F35D6100C6EBDB /* UserStories */,
+				768A46E725F35D8C00C6EBDB /* BusinessLogic */,
+				764F830625F35CAE00A4B8A4 /* Resources */,
+				764F830525F35CA800A4B8A4 /* Application */,
+			);
+			path = GeneticAlg;
+			sourceTree = "<group>";
+		};
+		764F830525F35CA800A4B8A4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				764F82EF25F35C9000A4B8A4 /* AppDelegate.swift */,
-				764F82F125F35C9000A4B8A4 /* SceneDelegate.swift */,
-				764F82F325F35C9000A4B8A4 /* ViewController.swift */,
-				764F82F525F35C9000A4B8A4 /* Main.storyboard */,
-				764F82F825F35C9100A4B8A4 /* Assets.xcassets */,
 				764F82FA25F35C9100A4B8A4 /* LaunchScreen.storyboard */,
 				764F82FD25F35C9100A4B8A4 /* Info.plist */,
 			);
-			path = GeneticAlg;
+			path = Application;
+			sourceTree = "<group>";
+		};
+		764F830625F35CAE00A4B8A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				764F82F825F35C9100A4B8A4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		768A46E125F35D6100C6EBDB /* UserStories */ = {
+			isa = PBXGroup;
+			children = (
+				768A46E225F35D6800C6EBDB /* Main */,
+			);
+			path = UserStories;
+			sourceTree = "<group>";
+		};
+		768A46E225F35D6800C6EBDB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				768A46E325F35D7900C6EBDB /* DrawViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		768A46E725F35D8C00C6EBDB /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				768A470F25F39A2500C6EBDB /* Matrix Generator */,
+				768A470E25F39A0000C6EBDB /* Debugger */,
+				768A470B25F399EF00C6EBDB /* Models */,
+				768A470A25F399EA00C6EBDB /* Algs */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		768A470A25F399EA00C6EBDB /* Algs */ = {
+			isa = PBXGroup;
+			children = (
+				768A470D25F399FB00C6EBDB /* Realization */,
+				768A470C25F399F600C6EBDB /* Abstract */,
+			);
+			path = Algs;
+			sourceTree = "<group>";
+		};
+		768A470B25F399EF00C6EBDB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				768A46EC25F35DFE00C6EBDB /* TaskInputMatrix.swift */,
+				768A46F425F36CCF00C6EBDB /* TaskOutput.swift */,
+				768A46F725F36D0B00C6EBDB /* TaskPoint.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		768A470C25F399F600C6EBDB /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				768A46FD25F3895B00C6EBDB /* AnyAlg.swift */,
+				768A470725F399C900C6EBDB /* AnyAlgState.swift */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		768A470D25F399FB00C6EBDB /* Realization */ = {
+			isa = PBXGroup;
+			children = (
+				768A46F025F36C4B00C6EBDB /* GreedyAlg.swift */,
+				768A46FA25F3894B00C6EBDB /* GeneticAlg.swift */,
+			);
+			path = Realization;
+			sourceTree = "<group>";
+		};
+		768A470E25F39A0000C6EBDB /* Debugger */ = {
+			isa = PBXGroup;
+			children = (
+				768A470025F3899800C6EBDB /* AnyAlgDebugger.swift */,
+				768A470425F38A2C00C6EBDB /* AlgDebugger.swift */,
+			);
+			path = Debugger;
+			sourceTree = "<group>";
+		};
+		768A470F25F39A2500C6EBDB /* Matrix Generator */ = {
+			isa = PBXGroup;
+			children = (
+				768A46E825F35DA800C6EBDB /* GeneticAlgMatrixGenerator.swift */,
+			);
+			path = "Matrix Generator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +238,6 @@
 			files = (
 				764F82FC25F35C9100A4B8A4 /* LaunchScreen.storyboard in Resources */,
 				764F82F925F35C9100A4B8A4 /* Assets.xcassets in Resources */,
-				764F82F725F35C9000A4B8A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +248,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				764F82F425F35C9000A4B8A4 /* ViewController.swift in Sources */,
+				768A46F125F36C4B00C6EBDB /* GreedyAlg.swift in Sources */,
+				768A46E425F35D7900C6EBDB /* DrawViewController.swift in Sources */,
+				768A46ED25F35DFE00C6EBDB /* TaskInputMatrix.swift in Sources */,
+				768A46F525F36CCF00C6EBDB /* TaskOutput.swift in Sources */,
+				768A46FE25F3895B00C6EBDB /* AnyAlg.swift in Sources */,
+				768A470125F3899800C6EBDB /* AnyAlgDebugger.swift in Sources */,
+				768A46F825F36D0B00C6EBDB /* TaskPoint.swift in Sources */,
+				768A46E925F35DA800C6EBDB /* GeneticAlgMatrixGenerator.swift in Sources */,
+				768A46FB25F3894B00C6EBDB /* GeneticAlg.swift in Sources */,
+				768A470825F399C900C6EBDB /* AnyAlgState.swift in Sources */,
 				764F82F025F35C9000A4B8A4 /* AppDelegate.swift in Sources */,
-				764F82F225F35C9000A4B8A4 /* SceneDelegate.swift in Sources */,
+				768A470525F38A2C00C6EBDB /* AlgDebugger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		764F82F525F35C9000A4B8A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				764F82F625F35C9000A4B8A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		764F82FA25F35C9100A4B8A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +400,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MZ27NMUWPC;
-				INFOPLIST_FILE = GeneticAlg/Info.plist;
+				INFOPLIST_FILE = GeneticAlg/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +419,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MZ27NMUWPC;
-				INFOPLIST_FILE = GeneticAlg/Info.plist;
+				INFOPLIST_FILE = GeneticAlg/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
